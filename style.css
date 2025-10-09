@@ -5,6 +5,29 @@
   font-style: normal;
 }
 /* cabeçalho */
-
-
-
+header{
+  background-color: #7b1c18;
+}
+#logo{
+  display: flex;
+  width: 200px;
+  align-content: center;
+  margin: 0%;
+}
+.item{
+  color: #ffd700;
+  align-items: center;
+  margin: 20px;
+  display: flex;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+/* selçao1 */
+#capa{
+    background-image: url(imagens/93549a0e9fd9c0edc00751631cd9144f.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
