@@ -7,24 +7,22 @@
 /* cabeçalho */
 header{
   background-color: #7b1c18;
-  display: flex;
-  justify-content: center;
-}
-#logo{
-  margin: 2px;
-  width: 100px;
-  display: flex;
-
 }
 #nav{
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .item{
   text-decoration: none;
   color: chartreuse;
   margin: 10px;
 }
-
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
 /* selçao1 */
 #capa{
     background-image: url(imagens/93549a0e9fd9c0edc00751631cd9144f.jpg);
