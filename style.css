@@ -9,12 +9,11 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
 /* cores */
 :root{
   --cor_nav: #7b1c18;
   --cor_item: #ffd700;
+  --cor_hover: honeydew;
 }
 /* cabeçalho */
 #nav{
@@ -44,8 +43,29 @@
   text-decoration: none;
 }
 .item:hover{
-  color: honeydew;
+  color: var(--cor_hover);
 }
 #logo{
   width: 100px;
 }
+/* seçÃO1 */
+
+#capa{
+  background-image: url(imagens/capa.jpg);
+  background-position: center;
+  position: fixed;
+  background-size: cover;
+}
+
+#tituloscapa{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+
