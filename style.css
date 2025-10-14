@@ -4,6 +4,12 @@
   font-weight: 400;
   font-style: normal;
 }
+.iceberg-regular {
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* cores */
 :root{
@@ -11,21 +17,34 @@
   --cor_item: #ffd700;
 }
 /* cabeçalho */
-
 #nav{
-  display: flex;
   background-color: var(--cor_nav);
   margin: 3px;
-  align-items: center;
+}
+#logo{
+  width: 500px;
+  margin: 2px;
+  display: block;
+  margin: 0 auto;
 }
 #navegar{
   display: flex;
   margin: 10px;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 .item{
   color: var(--cor_item);
-  margin: 10px;
+  margin: 20px;
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+}
+.item:hover{
+  color: honeydew;
 }
 #logo{
   width: 100px;
