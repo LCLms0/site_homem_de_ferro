@@ -9,6 +9,13 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* titulos de todas as seções */
+.titlesection{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 /* cores */
 :root{
   --cor_nav: #7b1c18;
@@ -93,6 +100,11 @@
 #tony{
   background-color: var(--cor_nav);
 }
+
+#imgstony{
+  display: flex;
+  gap: 50px;
+}
 #img1{
   width: 300px;
   height: auto;
@@ -110,6 +122,14 @@
 
 #img3{
   width: 460px;
+  height: auto;
+  margin: 20px;
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+}
+
+#img4{
+  width: 390px;
   height: auto;
   margin: 20px;
   border: var(--cor_item) 1px solid;
