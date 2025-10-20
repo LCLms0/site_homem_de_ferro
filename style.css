@@ -90,5 +90,28 @@
 }
 
 /* seção2 */
+#tony{
+  background-color: var(--cor_nav);
+}
+#img1{
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+}
+#img2{
+  width: 368px;
+  height: auto;
+  margin: 20px;
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+}
 
-
+#img3{
+  width: 460px;
+  height: auto;
+  margin: 20px;
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+}
