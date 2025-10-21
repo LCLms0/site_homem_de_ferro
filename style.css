@@ -15,12 +15,15 @@
   font-family: "Iceberg", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 60px;
+  color: var(--cor_item);
+  text-align: center;
 }
 /* cores */
 :root{
   --cor_nav: #7b1c18;
   --cor_item: #ffd700;
-  --cor_hover: honeydew;
+  --cor_hover: rgb(250, 250, 250);
 }
 /* cabeçalho */
 #nav{
@@ -55,7 +58,10 @@
 .item:hover{
   color: var(--cor_hover);
 }
-
+/* cor de fundo */
+#main{
+  background-color: var(--cor_nav);
+}
 /* seçÃO1 */
 
 #capa {
@@ -95,7 +101,6 @@
   padding: 3px;
   background-color: var(--cor_nav);
 }
-
 /* seção2 */
 #tony{
   background-color: var(--cor_nav);
