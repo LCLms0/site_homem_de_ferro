@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 /* fontes */
 .share-tech-regular {
   font-family: "Share Tech", sans-serif;
@@ -28,9 +32,12 @@
 /* cabeçalho */
 #nav{
   background-color: var(--cor_nav);
-  margin: 3px;
-  border: 1px;
-  border-radius: 2px solid;
+  border: var(--cor_item) 1px solid;
+  border-radius: 2px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top:0%
 }
 #logo{
   width: 500px;
@@ -74,6 +81,7 @@
   display: flex;       
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
 }
 
 #tituloscapa {
@@ -139,4 +147,27 @@
   margin: 20px;
   border: var(--cor_item) 1px solid;
   border-radius: 10px;
+}
+
+#p1tony{
+  display: flex;
+  align-items: flex-start;
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+  background-color: var(--cor_item);
+  width: 250px;
+  margin-left: 280px;
+  margin-top: 70px;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+#texto1{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: var(--cor_nav);
 }
