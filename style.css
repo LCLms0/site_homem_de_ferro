@@ -150,13 +150,11 @@ body{
 }
 
 #p1tony{
-  display: flex;
-  align-items: flex-start;
   border: var(--cor_item) 1px solid;
   border-radius: 10px;
   background-color: var(--cor_item);
-  width: 250px;
-  margin-left: 280px;
+  width: 1000px;
+  margin-left: 400px;
   margin-top: 70px;
   height: 300px;
   padding-left: 20px;
@@ -168,6 +166,35 @@ body{
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
+  font-size: 30px;
   color: var(--cor_nav);
+  text-align: justify;
+}
+
+ /* seção 2   */
+
+#imgsIronman {
+  display: flex;
+  gap: 50px;
+}
+
+#img5 {
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+  height: 408px;
+  width: 490px;
+}
+
+#img6 {
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+  width: 480px;
+  height: 726px;
+}
+
+#img7 {
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+  width: 408px;
+  height: 725;
 }
