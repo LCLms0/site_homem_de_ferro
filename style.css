@@ -178,26 +178,32 @@ body{
 
 #imgsIronman {
   display: flex;
-  gap: 50px;
+  gap: 150px;
+  margin-left: 140px;
+  margin-right: 150px;
 }
 
 #img5 {
   border: var(--cor_item) 1px solid;
   border-radius: 10px;
-  height: 408px;
-  width: 490px;
+  width: 300px;
 }
 
 #img6 {
   border: var(--cor_item) 1px solid;
   border-radius: 10px;
-  width: 480px;
-  height: 726px;
+  width: 300px;
 }
 
-#img7 {
+#img7{
   border: var(--cor_item) 1px solid;
   border-radius: 10px;
-  width: 408px;
-  height: 725;
+  width: 300px;
 }
+
+#img8{
+  border: var(--cor_item) 1px solid;
+  border-radius: 10px;
+  width: 300px;
+}
+
