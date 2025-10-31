@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/* fontes */
+.share-tech-regular {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.iceberg-regular {
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* cores */
+:root{
+  --cor_nav: #7b1c18;
+  --cor_item: #ffd700;
+  --cor_hover: rgb(250, 250, 250);
+  --cor_div: #1A1A1A;
+  --cor_elegante: #D4AF37;
+  --cor_azul : #0c3351;
+  --vermelho_vivo : #ff3131;
+}
+/* cabeçalho */
+#nav{
+  background-color: var(--cor_nav);
+  border: var(--cor_item) 1px solid;
+  border-radius: 2px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top:0%
+}
+#logo{
+  width: 500px;
+  margin: 2px;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  transition: 0.3s;
+}
+#navegar{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.item{
+  color: var(--cor_item);
+  margin: 20px;
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.item:hover{
+  color: var(--cor_hover);
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+
+/* seção 1  */
+
+#section1{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    background-color: var(--cor_azul);
+    align-items: center;
+}
+
+#filme1{
+    width: 500px;
+    margin-left: 1000px;
+    border: 1px solid var(--cor_nav);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#texto{
+    border: 1px solid var(--cor_nav);
+    border-radius: 10px;
+    margin-left: 500px;
+}
+#paragrafo{
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
