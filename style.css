@@ -46,11 +46,12 @@ body{
   margin: 2px;
   display: block;
   margin: 0 auto;
-  width: 100px;
+  width: 150px;
+  transition: 0.3s;
 }
 #navegar{
   display: flex;
-  margin: 10px;
+  gap: 30px;
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -63,9 +64,12 @@ body{
   font-style: normal;
   font-size: 30px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .item:hover{
   color: var(--cor_hover);
+  font-size: 35px;
+  text-decoration: underline;
 }
 /* cor de fundo */
 #main{
@@ -83,7 +87,7 @@ body{
   display: flex;       
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #tituloscapa {
@@ -213,7 +217,6 @@ body{
 #footer{
   display: flex;
   align-items: center;
-  gap: 700px;
   background-color: var(--cor_item);
 }
 
@@ -221,7 +224,7 @@ body{
   font-family: "Iceberg", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 250px;
+  margin-left: 80px;
   color: var(--cor_nav);
   font-size: 50px;
 }
@@ -233,4 +236,27 @@ body{
   text-decoration: none;
   font-size: 50px;
   color: var(--cor_nav);
+  margin-left: 200px;
+  transition: 0.3s;
+}
+#meuinsta:hover{
+  font-size: 52px;
+}
+
+#autor{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 230px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#fraseinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 150px;
+  color: var(--cor_nav);
+  font-size: 50px;
 }
