@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--cor_azul);
 }
 
 /* fontes */
@@ -75,42 +76,24 @@ body {
 
 /* seção 1  */
 
-#section1 {
-  margin-top: 100px;
+#section1{
+  margin-top: 150px;
   display: flex;
-  background-color: var(--cor_azul);
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
-#filme1 {
-  width: 500px;
-  margin-left: 50px;
-  border: 1px solid var(--cor_nav);
+#filme1{
+  width: 400px;
+  border: var(--cor_elegante) 1px  solid ;
   border-radius: 10px;
-  margin-top: 100px;
-  margin-right: 50px;
-}
-
-#texto {
-  border: 1px solid var(--cor_nav);
-  border-radius: 2px;
-  margin-left: 200px;
-  margin-top: 400px;
-  padding: 30px;
-  height: 200px;
+  margin-left: 1000px;
 }
 
 #titulo{
-  margin-top: 100px;
-  margin-left: 800px;
-}
-#titulo2{
-  margin-top: 100px;
-}
-
-#paragrafo {
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
   color: var(--cor_item);
 }
