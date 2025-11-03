@@ -76,19 +76,31 @@ body {
 
 /* seção 1  */
 
-#section1{
-  margin-top: 150px;
+#linha{
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: var(--cor_item);
+}
+
+#section{
   display: flex;
+  flex-direction: column;
+  margin-top: 150px;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+}
+
+#conteudo{
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
 }
 
 #filme1{
   width: 400px;
   border: var(--cor_elegante) 1px  solid ;
   border-radius: 10px;
-  margin-left: 1000px;
 }
 
 #titulo{
@@ -96,4 +108,20 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--cor_item);
+}
+
+#titulo2{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor_hover);
+}
+
+#paragrafo{
+  border: var(--cor_nav) 2px solid;
+  border-radius: 10px;
+  background-color: var(--cor_nav);
+  padding: 5px;
+  color: var(--cor_item);
+  font-size: 30px;
 }
