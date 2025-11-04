@@ -93,7 +93,7 @@ body {
 
 #conteudo{
   display: flex;
-  gap: 50px;
+  gap: 30px;
   margin-top: 100px;
 }
 
@@ -121,7 +121,87 @@ body {
   border: var(--cor_nav) 2px solid;
   border-radius: 10px;
   background-color: var(--cor_nav);
-  padding: 5px;
+  padding: 20px;
   color: var(--cor_item);
-  font-size: 30px;
+  font-size: 20px;
+  width: 700px;
+}
+
+#texto{
+  display: flex;
+  flex-direction: column;
+}
+
+#separador{
+  margin-left: 50px;
+}
+
+.divTrailer{
+  background-color: var(--cor_item);
+  padding: 10px;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 760px;
+  align-items: end;
+  border: 1px var(--cor_nav) solid;
+  border-radius: 10px;
+}
+
+.trailer{
+  color: var(--cor_azul);
+  transition: 0.3s;
+}
+
+.trailer:hover{
+  transform: scale(1.1);
+}
+
+/* baixo  */
+
+#footer{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: var(--cor_item);
+}
+
+#meunome{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 80px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#meuinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 50px;
+  color: var(--cor_nav);
+  margin-left: 200px;
+  transition: 0.3s;
+}
+#meuinsta:hover{
+  font-size: 52px;
+}
+
+#autor{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 230px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#fraseinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 150px;
+  color: var(--cor_nav);
+  font-size: 50px;
 }
