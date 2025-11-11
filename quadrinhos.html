@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"> </script>
 </head>
 
 <body>
@@ -31,6 +35,45 @@
     <main>
         <section id="hqs">
             <h1 id="title-section">HQs</h1>
+        </section>
+        <section class="carrosel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto1.png.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto2.png.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto3.png.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto4.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto5.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto6.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Hqs/foto7.png">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
         </section>
     </main>
 </body>

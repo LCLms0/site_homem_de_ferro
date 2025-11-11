@@ -102,3 +102,9 @@ body{
 #hqs{
   background-color: var(--variação_vermelho);
 }
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
