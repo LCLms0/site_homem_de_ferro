@@ -73,32 +73,25 @@ body {
   text-decoration: underline;
 }
 
-/* seção 1  */
-
-#title-section{
-  font-family: "Iceberg", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  color: var(--cor_item);
-  text-align: center;
+#title{
+    margin-top: 200px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1A1A1A;
 }
 
 #main{
-  background-color: var(--variação_vermelho);
+    margin-top: 500px;
 }
 
+/* seção 1 */
+
 #container-hq{
-  margin-left: 250px;
-  margin-right: 100px;
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .img-hq{
-  width: 200px;
-}
-
-#hqs{
-  margin-top: 500px;
+    width: 200px;
 }
