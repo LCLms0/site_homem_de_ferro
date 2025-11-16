@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--vermelho_vivo);
+  background-color: var(--cor_azul);
 }
 
 /* fontes */
@@ -73,25 +73,110 @@ body {
   text-decoration: underline;
 }
 
-#title{
-    margin-top: 200px;
-    font-family: "Share Tech", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #1A1A1A;
+#main{
+  margin-top: 200px;
 }
 
-#main{
-    margin-top: 500px;
-}
 
 /* seção 1 */
 
-#container-hq{
-    display: flex;
-    gap: 20px;
+.titulos{
+  display: flex;
+  flex-direction: column;
 }
 
-.img-hq{
-    width: 200px;
+.titulo{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor_item);
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
 }
+
+.sub-titulo{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor_item);
+  font-size: 35px;
+  margin-left: 200px;
+}
+
+.linha{
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: var(--cor_item);
+}
+
+.separação{
+  display: flex;
+  gap: 30px;
+}
+
+.textos{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.zig{
+  height: 300px;
+  width: 400px;
+}
+
+.imagem{
+  width: 350px;
+  border-radius: 30px;
+}
+
+.imagem2{
+  width: 350px;
+  border-radius: 30px;
+  margin-left: 500px;
+}
+
+.mãe{
+  display: flex;
+  height: 90px;
+  width: 1000px;
+  background: #731919;
+  background: linear-gradient(0deg,rgba(115, 25, 25, 1) 0%, rgba(11, 11, 11, 1) 100%);
+  border-radius: 30px;
+  padding: 5px;
+  gap: 20px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.número{
+  background-color: var(--vermelho_vivo);
+  border: 1px var(--vermelho_vivo) solid;
+  border-radius: 10px;
+  height: 80px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.número-n{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: var(--cor_item);
+  margin-left: 15px;
+}
+
+.texto-curiosidade{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--cor_item);
+}
+
+

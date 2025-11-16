@@ -117,7 +117,8 @@ body {
 .div{
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
+  margin: 50px;
 }
 
 .texto2{
@@ -131,5 +132,61 @@ body {
 }
 
 .imagem_legado{
-  width: 200px;
+  width: 800px;
+  transition: 0.3s;
+  border: 1px var(--cor_item) solid;
+  border-radius: 10px;
+}
+
+.imagem_legado:hover{
+  transform: scale(1.05);
+}
+
+/* baixo */
+
+#footer{
+  display: flex;
+  align-items: center;
+  background-color: var(--cor_item);
+}
+
+#meunome{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 80px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#meuinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 50px;
+  color: var(--cor_nav);
+  margin-left: 200px;
+  transition: 0.3s;
+}
+#meuinsta:hover{
+  font-size: 52px;
+}
+
+#autor{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 230px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#fraseinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 150px;
+  color: var(--cor_nav);
+  font-size: 50px;
 }
