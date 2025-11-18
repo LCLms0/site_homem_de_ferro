@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--vermelho_vivo);
+  background: #22C1C3;
 }
 
 /* fontes */
@@ -84,9 +84,6 @@ body {
   text-align: center;
 }
 
-#main{
-  background-color: var(--variação_vermelho);
-}
 
 #container-hq{
   margin-left: 250px;
