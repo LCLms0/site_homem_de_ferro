@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #22C1C3;
+  background: var(--cor_div);
 }
 
 /* fontes */
@@ -75,27 +75,19 @@ body {
 
 /* seção 1  */
 
-#title-section{
-  font-family: "Iceberg", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  color: var(--cor_item);
-  text-align: center;
+#main {
+  margin-top: 200px;
 }
-
-
-#container-hq{
-  margin-left: 250px;
-  margin-right: 100px;
+#imagem-armadura{
+  width: 300px;
+}
+#section1{
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.img-hq{
-  width: 200px;
-}
-
-#hqs{
-  margin-top: 500px;
+#botoes-armaduras{
+  display: flex;
+  gap: 50px;
 }
