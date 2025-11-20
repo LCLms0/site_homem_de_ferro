@@ -70,7 +70,6 @@ body {
 
 .item:hover {
   color: var(--cor_hover);
-  font-size: 35px;
   text-decoration: underline;
 }
 

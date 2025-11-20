@@ -69,7 +69,6 @@ body {
 
 .item:hover {
   color: var(--cor_hover);
-  font-size: 35px;
   text-decoration: underline;
 }
 
@@ -78,8 +77,35 @@ body {
 #main {
   margin-top: 200px;
 }
+
+#Div-img-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+#div-descrition{
+  height: 300px;
+  width: 400px;
+}
+#title-armadura{
+  color: var(--vermelho_vivo);
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+#text-descrition{
+  color: var(--cor_item);
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
 #imagem-armadura{
-  width: 300px;
+  width: 280px;
+  border: 0.01px var(--cor_item) solid;
+  border-radius: 30px;
 }
 #section1{
   display: flex;
@@ -89,5 +115,91 @@ body {
 
 #botoes-armaduras{
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+}
+#imagem-armadura,
+#div-descrition {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+.apresentacao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--cor_item);
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coluna{
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.botao{
+  background-color: var(--cor_nav);
+  color: var(--cor_item);
+  border: 0.1px var(--cor_item) solid;
+  border-radius: 50px;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.botao:hover{
+  transform: scale(1.1);
+}
+
+/* baixo */
+
+#footer{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: var(--cor_item);
+}
+
+#meunome{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 80px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#meuinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 50px;
+  color: var(--cor_nav);
+  margin-left: 200px;
+  transition: 0.3s;
+}
+#meuinsta:hover{
+  font-size: 52px;
+}
+
+#autor{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 230px;
+  color: var(--cor_nav);
+  font-size: 50px;
+}
+
+#fraseinsta{
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 150px;
+  color: var(--cor_nav);
+  font-size: 50px;
 }
