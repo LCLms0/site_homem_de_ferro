@@ -2,8 +2,15 @@ body {
   margin: 0;
   padding: 0;
   background: var(--cor_div);
+  overflow-x: hidden;
 }
-
+::selection {
+  color: white;
+  background-color: var(--cor_elegante);
+}
+::-webkit-scrollbar{
+  display: none;
+}
 /* fontes */
 .share-tech-regular {
   font-family: "Share Tech", sans-serif;

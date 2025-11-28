@@ -2,8 +2,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--legado);
+  overflow-x: hidden;
 }
-
+::selection {
+  color: white;
+  background-color: var(--cor_elegante);
+}
+::-webkit-scrollbar{
+  display: none;
+}
 /* fontes */
 .share-tech-regular {
   font-family: "Share Tech", sans-serif;
@@ -140,6 +147,13 @@ body {
 .imagem_legado:hover{
   transform: scale(1.05);
 }
+
+.div-fim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 /* baixo */
 

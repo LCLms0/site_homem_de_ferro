@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
-    <script src="filmes.js" defer></script>
+    <script src="trailer.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,13 +27,15 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Trailer do Filme</h1>
-
-            <iframe id="video" width="800" height="450" frameborder="0" allowfullscreen> </iframe>
-
-            <button onclick="voltar()">Voltar</button>
+    <main id="main">
+        <section id="section1">
+            <div class="cabecalho-section">
+                <h1 class="title-pag">Trailers dos Filmes</h1>
+                <h2 id="nome-filme" class="sub-title"></h2>
+            </div>
+            <div>
+                <iframe class="midia" id="video" width="800" height="450" frameborder="0" allowfullscreen> </iframe>
+            </div>
         </section>
     </main>
 </body>

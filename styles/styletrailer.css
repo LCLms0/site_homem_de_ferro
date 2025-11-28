@@ -1,6 +1,17 @@
 body{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  background-color: var(--cor_azul);
+}
+
+::selection {
+  color: black;
+  background-color: var(--cor_item);
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 /* fontes */
 .share-tech-regular {
@@ -65,8 +76,36 @@ body{
   color: var(--cor_hover);
   text-decoration: underline;
 }
-/* cor de fundo */
-#main{
-  background-color: var(--cor_nav);
+
+
+/* seção 1  */
+
+#section1{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin-top: 200px;
 }
 
+.cabecalho-section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sub-title{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--cor_item);
+}
+
+.title-pag{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: var(--cor_item);
+}
